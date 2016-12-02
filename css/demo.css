@@ -1,0 +1,36 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+.banner {
+  background-image: url(../images/banner-back.jpeg);
+  background-position: center;
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 180px;
+
+  color: white;
+}
+.content {
+  text-align: center;
+  padding-top: 100px;
+  color: #555;
+  font-size: 16px;
+}
+.content-itme {
+  margin-top: 40px;
+}
+.content-img {
+  max-width: 100%;
+}
+.footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
